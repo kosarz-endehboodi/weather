@@ -154,6 +154,7 @@ body {
     color: rgb(209, 62, 62);
     font-size: 30px;
     cursor: pointer;
+    margin: 2px 5px;
 }
 
 .search input {
