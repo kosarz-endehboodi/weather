@@ -1,0 +1,248 @@
+body {
+    margin: 0%;
+    background-image: url(images/unsplash.jpg);
+    background-size: cover;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: aliceblue;
+    margin-top: 5%;
+    background-color: #1d1f208c;
+}
+
+
+#rowSize {
+    height: 650px;
+    width: 1000px;
+    margin: 0% auto;
+
+}
+
+.header {
+    border-bottom: 2px 4px 5px #00000036;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.menu {
+    margin-top: 10px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    transition: 1s all ease;
+
+}
+
+.menu span {
+    padding: 1px;
+    border-top: 2px solid #4a92d6;
+    width: 20px;
+    height: 5px;
+    transition: 1s all ease;
+}
+
+.menu:hover span {
+    margin: 1px;
+    transform: scale(1.2);
+}
+
+
+#temp {
+    font-size: 20px;
+}
+
+#temp a {
+    display: inline-block;
+    cursor: pointer;
+    color: #4a92d6;
+
+}
+
+#numberdgrs {
+    font-size: 25px;
+}
+
+#clock {
+    padding: 2%;
+    font-size: 55px;
+}
+
+#clock span {
+    font-size: 80px;
+
+}
+
+#clock p {
+    font-size: 12px;
+    display: inline;
+}
+
+#dayMM {
+    padding: 2%;
+}
+
+#degres {
+    padding: 2%;
+}
+
+#week {
+    margin: 5% 0;
+}
+
+#week div {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+#week div h5 {
+    background-color: #e4dede5d;
+    border-radius: 50px;
+    width: 90px;
+    text-align: center;
+}
+
+#week div * {
+    padding: 4px 20px;
+}
+
+#infoPadding {
+    padding: 18px 2%;
+
+}
+
+#infoPadding>div * {
+    margin: 5px auto;
+    padding: 10px auto;
+}
+
+
+
+#selectLocation {
+    margin: 30px 0;
+    padding: 6px 20px;
+    background-color: rgba(100, 42, 24, 0.678);
+    border: 1px solid #5a2e11d2;
+    box-shadow: 1px 3px 5px #472d15bd;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: 1ms ease-in;
+}
+
+#selectLocation:hover {
+    box-shadow: inset 1px 3px 5px #414242a9;
+
+}
+
+#cityName {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#search {
+    color: rgb(179, 69, 69);
+}
+
+#location {
+    color: rgb(209, 62, 62);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.search input {
+    outline: none;
+    border: 1px solid #7e7a7a83;
+    box-shadow: 2px 3px 5px #d8e3ec49;
+    width: 200px;
+    height: 30px;
+}
+
+.search span {
+    margin-left: -24px;
+}
+
+
+#showloc {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.location {
+    margin-top: 25px;
+}
+
+#feelLike {
+    padding: 2% 0;
+}
+.weatherInfo{
+    margin-bottom: 30px;
+}
+.weatherInfo>div>div {
+    padding: 5px;
+    margin: 1px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #6b3f227e;
+
+}
+
+.weatherInfo img {
+    width: 40px;
+    border-radius: 50px;
+}
+
+#today {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: black;
+    padding-left: initial;
+}
+
+#menuWeatherDay {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+#menuWeatherDay * {
+    padding: 20px;
+
+}
+
+.part {
+    margin: 0 auto;
+    width: 100%;
+    border: 1px solid #00000036;
+    background: rgba(138, 138, 138, 0.5);
+}
+
+#today>div {
+    margin: 10px 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    border: 1px solid #00000036;
+    box-shadow: 2px 3px 5px #1f1e1e71;
+}
+
+#today div {
+    width: 200px;
+    padding: 5px 0;
+}
+
+#today>div span {
+    padding: 10px 4px;
+}
