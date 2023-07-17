@@ -2,7 +2,9 @@ body {
     margin: 0%;
     background-image: url(images/unsplash.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
+
 
 .container {
     font-family: Arial, Helvetica, sans-serif;
@@ -10,6 +12,7 @@ body {
     color: aliceblue;
     margin-top: 5%;
     background-color: #1d1f208c;
+    margin: 0 auto;
 }
 
 
@@ -182,9 +185,11 @@ body {
 #feelLike {
     padding: 2% 0;
 }
-.weatherInfo{
+
+.weatherInfo {
     margin-bottom: 30px;
 }
+
 .weatherInfo>div>div {
     padding: 5px;
     margin: 1px;
@@ -201,11 +206,13 @@ body {
 }
 
 #today {
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: row;
     color: black;
     padding-left: initial;
+    margin: 0% auto;
 }
 
 #menuWeatherDay {
@@ -246,4 +253,41 @@ body {
 
 #today>div span {
     padding: 10px 4px;
+}
+
+.coded {
+    margin: 0 auto;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 300px;
+    }
+
+    .row {
+        width: 300px;
+
+    }
+
+    #today {
+       
+        margin: 0% auto;
+        display: inline-table
+
+    }
+    #today {
+        width: 100px;
+      
+    }
+
+   
+    #backgroundImage {
+        margin: 0% auto;
+    }
+
+    .container>.row {
+        margin: 0% auto;
+    }
 }
